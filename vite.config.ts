@@ -6,7 +6,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    plugins: [
+   base: '/mojam-sabaa-almudun/', plugins: [
       react(),
       tailwindcss(),
       // Copies src/assets into dist/ so root-relative URLs like
